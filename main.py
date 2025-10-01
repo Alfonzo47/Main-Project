@@ -1,8 +1,11 @@
-from machine import Pin, PWM
+from machine import Pin, PWM, ADC
 import time
 from as5600 import AS5600
 
 # --- Configuration ---
+adcpin = 28  # ADC pin connected to the potentiometer
+pot = ADC(adcpin)
+
 I2C_BUS_ID = 0
 I2C_SDA_PIN = 4
 I2C_SCL_PIN = 5
@@ -100,32 +103,47 @@ try:
     while True:
         # Read the angle from the AS5600
         angle_in_degrees = encoder.read_angle()
-        
-        # Configure GPIO15 to output a PWM signal with 1 kHz frequency and 75% duty cycle
-        pwm_signal = setup_pwm_output(pin_number=18, frequency=4000, duty_cycle=100)
-        pwm_signal2 = setup_pwm_output(pin_number=16, frequency=500, duty_cycle=30)
 
-        # To stop the PWM signal, you can call:
-        # if pwm_signal:
-        #     pwm_signal.deinit()
+        # Read the potentiometer value
+        adc_value = pot.read_u16()  # Read ADC value (0–65535)
+        voltage = (3.3 / 65535) * adc_value  # Convert to voltage
+        print(f"Potentiometer Voltage: {voltage:.2f} V")
+        
+        duty_cycle1 = (adc_value / 65535) * 100  # Scale to 0–100%
+        duty_cycle1 = round(duty_cycle1, 2)  # Round to 2 decimal places
+        
+
+        # Calculate the inverse duty cycle for the second PWM signal
+        duty_cycle2 = 100 - duty_cycle1
+
+        # Update the PWM signals' duty cycles
+        pwm_signal1 = setup_pwm_output(pin_number=18, frequency=1000, duty_cycle=(int((duty_cycle1))) ) # Update duty cycle for PWM1
+        pwm_signal2 = setup_pwm_output(pin_number=16, frequency=1000, duty_cycle=(int((duty_cycle2))) ) # Update duty cycle for PWM1
+        print(f"Potentiometer ADC Value: {adc_value}")
 
         if angle_in_degrees is not None:
             # Save the angle data
             save_data(angle_in_degrees)
-            
+           
             # Print the angle
             print(f"Angle: {angle_in_degrees:.2f}")
         else:
             print("Error reading angle.")
 
         # Wait before the next reading
-        time.sleep(1)
+        time.sleep(1)  # Short delay for smoother updates
 except KeyboardInterrupt:
     print("Program stopped. Extracting saved data...")
-
+ 
     # Turn off the LED when the program stops
     led.off()
     print("LED is OFF (Program stopped).")
+
+    # Deinitialize the PWM signals
+    if pwm_signal1:
+        pwm_signal1.deinit()
+    if pwm_signal2:
+        pwm_signal2.deinit()
 
     # Extract and print saved data when the program is stopped
     saved_data = extract_data()
