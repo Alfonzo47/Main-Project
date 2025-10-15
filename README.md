@@ -33,7 +33,10 @@ the test. The user experience is designed to be straightforward, allowing for ea
 
 # Designs 
 
-<img width="432" height="365" alt="Screenshot 2025-10-14 at 16 40 22" src="https://github.com/user-attachments/assets/31dae4d6-c804-4b0d-a5cf-5ecdf489f2e1" />
+<img width="432" height="387" alt="Screenshot 2025-10-14 at 16 40 22" src="https://github.com/user-attachments/assets/31dae4d6-c804-4b0d-a5cf-5ecdf489f2e1" 
+
+<img width="432" height="387" alt="Screenshot 2025-10-14 at 16 42 54" src="https://github.com/user-attachments/assets/5bd28a4c-82df-4446-8a31-6e5548ac6913" />
+
 
 This is a geardesign to combine the motor to the loadcell
 
