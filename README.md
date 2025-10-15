@@ -36,14 +36,17 @@ revolutions from the magnetic sensor.
 
 
 
-
 # User Interaction
 
 The user interacts with the prototype through a simple and intuitive setup. The user places their finger on the load cell axis, where the mechanical system simulates controlled
 finger extension. 
 The interaction is primarily physical, as the user experiences a resistive motion that mimics the operation of a professional isokinetic dynamometer. During this process, the data
 from the Arduino microcontroller is transmitted to the software and visualized through a C-based interface and provides real-time readings of the angle and applied force during 
-the test. The user experience is designed to be straightforward, allowing for easy setup and clear feedback without the complexity of a full clinical device
+the test. The user experience is designed to be straightforward, allowing for easy setup and clear feedback without the complexity of a full clinical device.
+
+# Start up the Arduino
+
+https://curiousscientist.tech/blog/as5600-magnetic-position-encoder
 
 # Designs 
 
