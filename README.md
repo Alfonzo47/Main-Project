@@ -96,7 +96,7 @@ The figure shows the schematic for the electrical circuit made in KiCad
 
 
 
-The figures shows
+The figures shows the KiCad circuit on a PCB board and a 3D design of the PCB board to print for later use 
 
 
 
