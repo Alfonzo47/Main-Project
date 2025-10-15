@@ -44,7 +44,7 @@ The interaction is primarily physical, as the user experiences a resistive motio
 from the Arduino microcontroller is transmitted to the software and visualized through a C-based interface and provides real-time readings of the angle and applied force during 
 the test. The user experience is designed to be straightforward, allowing for easy setup and clear feedback without the complexity of a full clinical device.
 
-# Start up the Arduino
+# Start up the Arduino-system
 
 https://curiousscientist.tech/blog/as5600-magnetic-position-encoder
 
