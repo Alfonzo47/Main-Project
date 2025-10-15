@@ -49,3 +49,16 @@ This is a piece to combine the magnetic encoder and the motor
 
 
 
+
+
+<img width="818" height="643" alt="Screenshot 2025-10-15 at 09 02 26" src="https://github.com/user-attachments/assets/0b2da7e0-1742-4b0b-a57b-604b6a48d17b" />
+
+<img width="818" height="643" alt="Screenshot 2025-10-15 at 09 02 44" src="https://github.com/user-attachments/assets/fa7162a4-f618-416f-9c74-889293c1cc2a" />
+
+
+This is the intended design for the prototype. This model offers the user to rest the palm while doing the test. The cylindrical shape in the design represents one of the gears
+
+
+
+
+
