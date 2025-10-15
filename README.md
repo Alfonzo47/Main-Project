@@ -34,7 +34,15 @@ the test. The user experience is designed to be straightforward, allowing for ea
 # Designs 
 
 <img width="432" height="365" alt="Screenshot 2025-10-14 at 16 40 22" src="https://github.com/user-attachments/assets/31dae4d6-c804-4b0d-a5cf-5ecdf489f2e1" />
+
 This is a geardesign to combine the motor to the loadcell
+
+
+<img width="548" height="413" alt="Screenshot 2025-10-15 at 08 54 31" src="https://github.com/user-attachments/assets/e317d224-3dae-410b-9c33-48b9b1d282ec" />
+
+<img width="474" height="429" alt="Screenshot 2025-10-15 at 08 54 47" src="https://github.com/user-attachments/assets/99b8ed79-7ab7-4e79-b114-6cb94c1e4874" />
+
+This is a piece to combine the magnetic encoder and the motor 
 
 
 
