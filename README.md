@@ -38,7 +38,12 @@ the test. The user experience is designed to be straightforward, allowing for ea
 <img width="432" height="387" alt="Screenshot 2025-10-14 at 16 42 54" src="https://github.com/user-attachments/assets/5bd28a4c-82df-4446-8a31-6e5548ac6913" />
 
 
+
+
 The figure shows a geardesign to combine the motor to the loadcell
+
+
+
 
 
 
@@ -48,7 +53,12 @@ The figure shows a geardesign to combine the motor to the loadcell
 <img width="474" height="406" alt="Screenshot 2025-10-15 at 09 00 52" src="https://github.com/user-attachments/assets/385f7e22-bf46-49b4-a12b-85f68a9a61f9" />
 
 
+
+
 The figure shows a piece to combine the magnetic encoder and the motor 
+
+
+
 
 
 
@@ -59,7 +69,12 @@ The figure shows a piece to combine the magnetic encoder and the motor
 <img width="818" height="643" alt="Screenshot 2025-10-15 at 09 02 44" src="https://github.com/user-attachments/assets/fa7162a4-f618-416f-9c74-889293c1cc2a" />
 
 
+
+
 The figure shows the intended design for the prototype. This model offers the user to rest the palm while doing the test. The cylindrical shape in the design represents one of the gears
+
+
+
 
 
 
@@ -67,11 +82,18 @@ The figure shows the intended design for the prototype. This model offers the us
 <img width="801" height="558" alt="Screenshot 2025-10-15 at 14 39 43" src="https://github.com/user-attachments/assets/a615b686-281e-4fea-8bc2-d54c5c33b065" />
 
 
+
 The figure shows the schematic for the electrical circuit made in KiCad
+
+
+
+
 
 <img width="801" height="558" alt="Screenshot 2025-10-15 at 14 39 55" src="https://github.com/user-attachments/assets/25f01901-ced0-400f-a348-0c3fbeebc275" />
 
 <img width="801" height="558" alt="Screenshot 2025-10-15 at 14 40 08" src="https://github.com/user-attachments/assets/5f6a40a1-ea9a-4163-9bf4-20fcfe5a33c2" />
+
+
 
 
 The figures shows
