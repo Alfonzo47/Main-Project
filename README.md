@@ -85,6 +85,7 @@ The figure shows a piece to combine the magnetic encoder and the motor
 
 <img width="818" height="643" alt="Screenshot 2025-10-15 at 09 02 44" src="https://github.com/user-attachments/assets/fa7162a4-f618-416f-9c74-889293c1cc2a" />
 
+<img width="1088" height="769" alt="caseSketch" src="https://github.com/user-attachments/assets/9ea875b2-d331-4dc8-91bd-d2e9c4b86132" />
 
 
 
