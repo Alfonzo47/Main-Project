@@ -25,11 +25,12 @@ The system's core consists of an Arduino microcontroller integrated with an AS56
 for real-time control and analysis.
 The physical motion simulates finger flexion/extension using a specially 3D designed gear-driven system. A Load Cell is mounted on one of the gears, acting as the axis where the
 user's finger applies force.
+
 The key to achieving Isokinetic Control is:
-Encoder Measurement: The AS5600 encoder continuously measures the angular position and, critically, the velocity of the motor shaft.
-Software: This code integrates a position to track the total absolute rotation (in degrees) and a sensor to measure force. Both angle and weight values ​​are updated and displayed 
-in real time, while the code continuously drives the motor. It also includes a logic to scale and calculate full revolutions from the magnetic sensor.  
-Data Collection: Simultaneously, the Load Cell accurately measures the applied force.
+- Encoder Measurement: The AS5600 encoder continuously measures the angular position and, critically, the velocity of the motor shaft.
+- Software: This code integrates a position to track the total absolute rotation (in degrees) and a sensor to measure force. Both angle and weight values ​​are updated and displayed in real time, while the code continuously drives the motor. It also includes a logic to scale and calculate full revolutions from the magnetic sensor.  
+- Data Collection: Simultaneously, the Load Cell accurately measures the applied force.
+
 Both angle and weight values ​​are updated and displayed in real time, while the code continuously drives the motor. It also includes a logic to scale and calculate full
 revolutions from the magnetic sensor.
 
