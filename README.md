@@ -33,7 +33,8 @@ the test. The user experience is designed to be straightforward, allowing for ea
 
 # Designs 
 
-!This is a piece to combine the magnatic encoder and the motor](<AS5600Mount_nema17.stl>)
+<img width="432" height="365" alt="Screenshot 2025-10-14 at 16 40 22" src="https://github.com/user-attachments/assets/31dae4d6-c804-4b0d-a5cf-5ecdf489f2e1" />
+This is a geardesign to combine the motor to the loadcell
 
 
 
