@@ -42,7 +42,8 @@ This is a geardesign to combine the motor to the loadcell
 
 <img width="474" height="408" alt="Screenshot 2025-10-15 at 08 58 10" src="https://github.com/user-attachments/assets/45f6744c-144c-441d-9d65-eb200f2815b5" />
 
-<img width="474" height="429" alt="Screenshot 2025-10-15 at 08 54 47" src="https://github.com/user-attachments/assets/99b8ed79-7ab7-4e79-b114-6cb94c1e4874" />
+<img width="474" height="406" alt="Screenshot 2025-10-15 at 09 00 52" src="https://github.com/user-attachments/assets/385f7e22-bf46-49b4-a12b-85f68a9a61f9" />
+
 
 This is a piece to combine the magnetic encoder and the motor 
 
