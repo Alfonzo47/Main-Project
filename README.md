@@ -10,7 +10,7 @@ to implement in various smaller clinics or hospitals. Our intended user is prima
 patients with joint related injuries. Our project aims to widen the access to this type of machine.
 
 # Components
-- Steppermoter
+- Steppermoter: Nema17
 - Oled-Screen: 0.96 tum, I20
 - Amplifyer: HX711
 - Loadcell
