@@ -9,10 +9,6 @@ prototype is to strip down the functionality of the original, full-scale clinica
 cheaper and easier to implement in various smaller clinics or hospitals. Our intended user is primarily physiotherapists and researchers who require the data for the 
 rehabilitation of patients with joint related injuries. Our project aims to widen the access to this type of machine.
 
-# Proof of concept (POC)
-
-https://github.com/user-attachments/assets/d374ca38-595d-4cdc-8caa-6618b789fd21
-
 
 
 # Components we used
