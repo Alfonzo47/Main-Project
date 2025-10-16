@@ -87,7 +87,7 @@ The figure shows the intended design for the prototype. This model offers the us
 
 
 
-<img width="200" height="200" alt="Screenshot 2025-10-15 at 14 39 43" src="https://github.com/user-attachments/assets/a615b686-281e-4fea-8bc2-d54c5c33b065" />
+<img width="500" height="500" alt="Screenshot 2025-10-15 at 14 39 43" src="https://github.com/user-attachments/assets/a615b686-281e-4fea-8bc2-d54c5c33b065" />
 
 
 The figure shows the schematic for the electrical circuit made in KiCad
